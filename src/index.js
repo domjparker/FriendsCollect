@@ -4,6 +4,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 import { robots } from "./robots";
+import "../src/index.css";
+
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
