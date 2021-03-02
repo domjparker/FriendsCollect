@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import App from "./containers/App";
 import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 import { robots } from "./robots";
-import "../src/index.css";
+import "./index.css";
 
 
 ReactDOM.render(<App />, document.getElementById("root"));
